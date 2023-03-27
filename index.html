@@ -5,11 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>pagination</title>
+  <style>
+    /* style the container */
+#container {
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+}
+
+/* style the container child elements */
+#container > div {
+  width:200px;
+  height:200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+  </style>
+  <script src="pagination.js"></script>
 </head>
 <body>
     <div id="container"></div>
     <button id="prev-button" disabled>Prev</button>
     <button id="next-button">Next</button>
+  
 </body>
 </html>
  
